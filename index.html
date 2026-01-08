@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio de software y docencia: FP, Bachillerato, IA y Big Data." />
+  <title>Manuel J Granados — Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="container header">
+    <div class="hero">
+      <div>
+        <h1>Manuel J Granados</h1>
+        <p class="subtitle">
+          Profesor (FP / Bachillerato) · Desarrollo de software · IA aplicada
+        </p>
+
+        <p class="bio">
+          Presentación breve (2–3 líneas). Ej.: Ingeniero informático y docente, enfocado en construir
+          soluciones software reproducibles y bien documentadas, con especial interés en IA aplicada.
+        </p>
+
+        <div class="links">
+          <a class="btn" href="https://www.linkedin.com/in/manuel-j-granados-lópez-33a859110/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn" href="https://www.kaggle.com/mjgranados" target="_blank" rel="noreferrer">Kaggle</a>
+          <a class="btn" href="https://github.com/manueljgranados" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Formación (resumen)</h2>
+        <ul class="list">
+          <li>Grado en Ingeniería Informática (2025)</li>
+          <li>Máster de Formación del Profesorado (MAES)</li>
+          <li>Especialización: IA aplicada, Big Data, desarrollo Python</li>
+        </ul>
+
+        <p class="small muted">
+          Ajuste este bloque a su caso real (muy conciso: 3–5 líneas).
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Proyectos destacados</h2>
+      <p class="muted">
+        Selección corta (3–6). El resto se listan automáticamente más abajo.
+      </p>
+
+      <div id="featured" class="grid"></div>
+    </section>
+
+    <section class="section">
+      <h2>Repositorios públicos</h2>
+      <p class="muted">
+        Cargados automáticamente desde GitHub. Ordenados por actualización reciente.
+      </p>
+
+      <div class="toolbar">
+        <input id="filter" type="search" placeholder="Filtrar por nombre o descripción…" autocomplete="off" />
+        <select id="sort">
+          <option value="updated">Más recientes</option>
+          <option value="stars">Más estrellas</option>
+          <option value="name">Nombre (A–Z)</option>
+        </select>
+      </div>
+
+      <div id="projects" class="grid"></div>
+      <p id="status" class="small muted"></p>
+
+      <noscript>
+        <p class="small muted">Active JavaScript para ver el listado automático de repositorios.</p>
+      </noscript>
+    </section>
+
+    <section class="section">
+      <h2>Qué puede esperar un reclutador</h2>
+      <ul class="list">
+        <li>Repositorios reproducibles (README, pasos de ejecución, Docker cuando procede).</li>
+        <li>Buenas prácticas: estructura, tests mínimos, CI.</li>
+        <li>Proyectos pequeños finalizados (orientados a demostración).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p class="small muted">
+      © <span id="year"></span> SU NOMBRE · Hecho con GitHub Pages
+    </p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
